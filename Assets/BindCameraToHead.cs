@@ -34,7 +34,7 @@ public class BindCameraToHead : MonoBehaviour
         worldAngle.y = trackingRotation.y * 100; // ローカル座標を基準に、y軸を軸にした回転を10度に変更
         worldAngle.z = trackingRotation.z * 100; // ローカル座標を基準に、z軸を軸にした回転を10度に変更
         // Debug.Log(trackingRotation.x);
-        Debug.Log(trackingRotation.y);
+        // Debug.Log(trackingRotation.y);
 
         myTransform.eulerAngles = worldAngle; // 回転角度を設定
 
