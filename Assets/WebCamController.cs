@@ -15,6 +15,7 @@ public class WebCamController : MonoBehaviour
         webcamTexture = new WebCamTexture(devices[0].name, this.width, this.height, this.fps);
         GetComponent<Renderer>().material.mainTexture = webcamTexture;
         webcamTexture.Play();
+
     }
     void Update()
     {
